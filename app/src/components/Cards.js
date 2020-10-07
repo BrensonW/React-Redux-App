@@ -1,4 +1,4 @@
-import React, { useEffect } froom 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { fetchCards, fetchNewCards } from '../store';
 
@@ -39,4 +39,4 @@ const Cards = (props) => {
             };
         };
 
-        expoort default connect(mapStateToProps, { fetchCards, fetchNewCards })(Cards);
+        export default connect(mapStateToProps, { fetchCards, fetchNewCards })(Cards);
