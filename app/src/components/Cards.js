@@ -18,7 +18,7 @@ const Cards = (props) => {
             {props.cards.map((card) => {
               return (
                 <div>
-                  <img src={card.imageUrl} />
+                  <img src={card.imageUrl} alt='' />
                   <h2 key={card.card_id}>{card.name}</h2>
                   <h3> {card.text} </h3>
                 </div>
